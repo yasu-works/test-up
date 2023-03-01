@@ -1,0 +1,1255 @@
+@charset "UTF-8";
+
+/* ----------------------------------------
+body
+---------------------------------------- */
+body {
+    color: #e7e7e7;
+    background-color: #03051c;
+    /* --block-bg-color: #03051c; */
+}
+
+/* ----------------------------------------
+共通部分
+---------------------------------------- */
+.color-gold {
+    color: #a08a1e;
+}
+
+.btn {
+    background-color: #a08a1e;
+    padding: 15px 40px;
+    color: #fff;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Libre Baskerville', serif;
+}
+/* ----------------------------------------
+header
+---------------------------------------- */
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+    height: 75px;
+    align-items: center;
+}
+
+.nav-flex {
+    display: flex;
+}
+
+.header-title {
+    font-size: 1.25rem;
+}
+
+.nav-flex li {
+    margin-right: 7px;
+}
+
+.nav-flex li:hover {
+    text-decoration: underline;
+}
+
+.nav-flex a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    background-color: #000;
+    z-index: 999;
+    top: 0;
+    left: 0;
+}
+
+/* ----------------------------------------
+main-visual
+---------------------------------------- */
+
+
+.main-visual {
+    position: relative;
+    background-image: url(img/original.jpeg);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 75px;
+}
+
+.main-title {
+    position: relative;
+    top: 10%;
+    font-size: 6.25rem;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+/* ----------------------------------------
+forex-system
+---------------------------------------- */
+.wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 1.775rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 4px dashed #a08a1e;
+    border-bottom: 4px dashed #a08a1e;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.section-subtitle {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 2.15rem;
+}
+
+#forex-system {
+    margin-top: 63px;
+    margin-bottom: 50px;
+}
+
+.our-products-menu p {
+    font-size: 1.785rem;
+    margin-bottom: 15px;
+}
+
+.our-products-flex {
+    display: flex;
+}
+
+.menu-first {
+    width: 40%;
+    margin-right: 40px;
+}
+
+.menu-second {
+    width: 60%;
+}
+
+.menu-second p {
+    font-size: 0.875rem;
+}
+
+.our-products-btn {
+    margin-top: 30px;
+}
+
+.first-text {
+    margin-bottom: 20px;
+}
+
+/* ----------------------------------------
+section
+---------------------------------------- */
+.section-flex-first {
+    display: flex;
+    background-image: url(img/original3.png);
+    background-size: cover;
+    background-position: center;
+    height: 290px;
+}
+
+.section-flex-second {
+    display: flex;
+    background-image: url(img/original4.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 390px;
+}
+
+.section-flex-third {
+    display: flex;
+    background-image: url(img/original5.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 280px;
+}
+
+.section-half {
+    width: 50%;
+}
+
+.section-half-text {
+    color: #000;
+    font-size: 0.875rem;
+}
+
+.section-half-clearbox {
+    width: 50%;
+}
+
+.section-half p {
+    text-align: center;
+}
+
+.white {
+    background-color: #e7e7e7;
+    opacity: 0.9;
+}
+
+.text-width {
+    max-width: 85%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.about-us {
+    margin-bottom: 80px;
+}
+
+.contact-us {
+    margin-bottom: 380px;
+}
+
+.section-halftitle {
+    font-size: 1.675rem;
+    margin-bottom: 15px;
+}
+
+
+/* ----------------------------------------
+footer
+---------------------------------------- */
+footer p,footer h4 {
+    font-size: 0.875rem;
+}
+
+footer h4 {
+    font-weight: normal;
+}
+
+.copyright {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+}
+
+.footer-nav li:hover {
+    text-decoration: underline;
+    color: rgb(51, 51, 51);
+}
+
+.footer-nav li {
+    margin-right: 15px;
+}
+
+.social {
+    margin-top: 20px;
+}
+
+footer {
+    border-top:solid 1px #a08a1e;
+}
+
+.footer-text {
+    margin-top: 20px;
+}
+
+/* ----------------------------------------
+producsページ
+---------------------------------------- */
+.product-wrapper {
+    max-width: 940px;
+    margin: 150px auto;
+}
+
+.product-title {
+    text-align: center;
+}
+
+.product-title h1 {
+    font-size: 1.785rem;
+    margin-bottom: 5px;
+    margin-top: 65px;
+}
+
+.product-title p {
+    font-size: 0.875rem;
+}
+
+.awesome-features {
+    text-align: center;
+    margin-top: 110px;
+}
+
+.awesome-features h2 {
+    font-size: 1.785rem;
+    border-top: 2px solid #a08a1e;
+    border-bottom: 2px solid #a08a1e;
+    margin-bottom: 50px;
+}
+
+.awesome-features h2 p {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-top: 1px solid #a08a1e;
+    border-bottom: 1px solid #a08a1e;
+}
+
+.awesome-features p {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.br-none-2 {
+    display: none;
+}
+
+/* ----------------------------------------
+point
+---------------------------------------- */
+.point {
+    margin-bottom: 150px;
+    margin-top: 60px;
+}
+
+.point-q {
+    cursor: pointer;
+}
+
+.accordion-title:hover {
+    background-color: #07192E;
+}
+
+.accordion-title {
+    position: relative;
+    font-size: 1.275rem;
+    padding: 24px 0;
+    border-bottom: 2px solid #a08a1e;
+    padding-left: 25px;
+}
+
+.answer {
+    display: none;
+}
+
+.answer p {
+    font-size: 0.875rem;
+    border: none;
+    padding: 24px;
+}
+
+.accordion-title::after {
+    content:"";
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-top: #a08a1e 2px solid;
+    border-right: #a08a1e 2px solid;
+    -webkit-transform: rorate(135deg);
+    -ms-transform: rotate(135deg);
+    transform: rotate(135deg);
+    position: absolute;
+    right: 3%;
+    top: 0;
+    bottom: 15%;
+    margin: auto;
+}
+
+.accordion-title.open::after {
+    top: 15%;
+    transform: rotate(-45deg);
+}
+
+
+/* ----------------------------------------
+system
+---------------------------------------- */
+.system {
+    margin-bottom: 100px;
+}
+
+.system h3 {
+    font-size: 1.675rem;
+    margin-bottom: 25px;
+    padding-left: 15px;
+}
+
+.system-flex {
+    display: flex;
+}
+
+.system-menu1 {
+    width: 40%;
+}
+
+.system-menu1 img {
+    padding: 4px;
+    border: 1px solid #a08a1e;
+    outline: 2px solid #a08a1e;
+    outline-offset: 7px;
+}
+
+.system-menu2 {
+    width: 55%;
+    margin-left: 30px;
+}
+
+.system-menu2 p {
+    font-size: 0.875rem;
+}
+
+/* ----------------------------------------
+FEEDBACK FROM RECENT BUYERS
+---------------------------------------- */
+.feedback h3 {
+    font-size: 1.675rem;
+    margin-bottom: 40px;
+}
+
+.feedback p {
+    font-size: 0.875rem;
+    margin-bottom: 50px;
+}
+
+.feedback h3,.feedback p {
+    text-align: center;
+}
+
+.feedback-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.feedback-item {
+    background-color: #fff; 
+    color: #000;
+    width: 48%;
+    display: flex;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.feedback-item img {
+    height: 150px;
+    width: 150px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.feedback-text {
+    font-size: 0.875rem;
+    letter-spacing: 0.5px;
+    width: 60%;
+}
+
+.fd-text-title {
+    margin-bottom: 15px;
+}
+
+.feedback-subtext {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1.275rem;
+    margin-bottom: 300px;
+}
+
+.feedback {
+    position: relative;
+}
+
+.feedback h3::before {
+    content: "";
+    position: absolute;
+    bottom: 76px;
+    left: 6.8em;
+    width: 10px;
+    height: 10px;
+    background-color: #a08a1e;
+    transform: rotate(45deg);
+}
+
+.feedback h3::after {
+    content: "";
+    position: absolute;
+    bottom: 77px;
+    left: 27.6em;
+    width: 10px;
+    height: 10px;
+    background-color: #a08a1e;
+    transform: rotate(45deg);
+}
+
+/* ----------------------------------------
+ABOUT USページ
+---------------------------------------- */
+.top-visual {
+    background-size: cover;
+    background-image: url(img/IMG_7675.jpeg);
+    height: 230px;
+    background-position: center;
+    margin-top: 75px;
+}
+
+.admirals {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.admirals h3 {
+    font-size: 1.675rem;
+    margin-bottom: 20px;
+}
+
+.admirals p {
+    font-size: 0.875rem;
+    margin-bottom: 80px;
+}
+
+.who-we-are {
+    text-align: center;
+}
+
+.who-we-are h3 {
+    font-size: 1.675rem;
+    margin-bottom: 13px;
+}
+
+.who-we-are p {
+    font-size: 0.875rem;
+    margin-bottom: 80px;
+}
+
+.table th,
+.table td {
+    font-size: 0.875rem;
+    padding: 10px;
+}
+
+.table {
+    margin-left: 130px;
+    margin-bottom: 400px;
+}
+
+.border-bottom-h3 {
+    border-bottom: #a08a1e 2px solid;
+    display: block;
+    width: 5%;
+    margin: 0 auto 60px auto;
+}
+
+.info dl {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info dt {
+    width: 20%;
+}
+
+.info dt,
+.info dd {
+    font-size: 0.875rem;
+    padding: 10px;
+}
+
+.info dd {
+    width: 80%;
+}
+
+.info {
+    max-width: 940px;
+    margin: 0 auto 400px auto;
+}
+
+
+
+/* ----------------------------------------
+contact usページ
+---------------------------------------- */
+.contact-top {
+    background-image: url(img/original4.jpeg);
+    height: 176px;
+    background-position: center;
+    background-size: cover;
+    margin-top: 75px;
+}
+
+.contact-top h3 {
+    font-size: 1.775rem;
+    text-align: center;
+    padding-top: 67px;
+}
+
+.contact-text {
+    font-size: 0.875rem;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.faq {
+    max-width: 940px;
+    margin: 0 auto 200px auto;
+}
+
+.center-h3 {
+    text-align: center;
+}
+
+.faq h3 {
+    font-size: 1.675rem;
+    border-bottom: 2px solid #a08a1e;
+    padding-bottom: 15px;
+    display: inline-block;
+    margin: 0px auto 60px auto;
+}
+
+.contact-form {
+    max-width: 620px;
+    margin: 50px auto 200px auto;
+}
+
+.contact-form span {
+    background-color: #a08a1e;
+    font-size: 0.675rem;
+    padding: 2px 3px;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+
+.item {
+    margin-bottom: 18px;
+    display: flex;
+}
+
+.item label {
+    width: 25%;
+    margin-right: 15px;
+}
+
+.item input {
+    width: 75%;
+    padding: 7px 7px 7px 9px;
+    border-radius: 3px;
+}
+
+::placeholder {
+    color: #aaa;
+}
+
+.item textarea {
+    width: 466px;
+    height: 92px;
+}
+
+.contact-form label {
+    font-size: 0.875rem;
+}
+
+.contact-btn {
+    background-color: #a08a1e;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 24px;
+    border-radius: 22px;
+}
+
+.contact-send {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.tel-box {
+    width: 180px!important;
+}
+
+.tel-label {
+    margin-right: 11px !important;
+}
+
+.sub-text {
+    font-size: 0.875rem;
+}
+
+.email-label {
+    margin-right: 38px!important;
+}
+
+.email-input {
+    width: 100% !important;
+    margin-bottom: 4px;
+}
+
+/* チェックボックス全体 */
+.checknox-wrap {
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+    font-size: 14px;
+    user-select: none;
+}
+
+  /* デフォルトチェックボックス非表示 */
+.checknox-wrap input {
+    display: none;
+}
+
+  /* チェックボックスのスタイル */
+.checknox-wrap .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 14px;
+    width: 14px;
+    background: #CCC;
+    box-sizing: border-box;
+}
+
+  /* チェックマーク作成 */
+.checknox-wrap .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+    left: 4.5px;
+    top: 1.5px;
+    width: 5px;
+    height: 9px;
+    border: 2px solid #FFF;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+  /* チェック時のスタイル */
+.checknox-wrap input:checked + .checkmark {
+    background-color: #0075FF;
+}
+
+  /* チェック時 チェックマーク表示 */
+.checknox-wrap input:checked + .checkmark:after {
+    display: block;
+}
+
+.margin-left-none {
+    margin-left: 0px!important;
+    border-radius: 2px!important;
+}
+
+/* ----------------------------------------
+fade in アニメーション
+---------------------------------------- */
+.element {
+    /* 最初は非表示 */
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(30px);
+    transition: opacity 1s, visibility 1s, transform 1s;
+}
+  /* フェードイン時に入るクラス */
+.is-fadein {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+}
+
+/* ----------------------------------------
+SP
+---------------------------------------- */
+@media screen and (max-width:900px) {
+    .main-title {
+        font-size: 2.05rem;
+        letter-spacing: 6px;   
+        top: 30px; 
+    }
+
+    .nav-flex {
+        display: none;
+    }
+
+    .main-visual {
+        height: 200px;
+        margin-top: 58px;
+    }
+
+/* ----------------------------------------
+header
+---------------------------------------- */
+
+    .header-flex {
+        height: 58px;
+    }
+
+    .header-title {
+        margin-left: 10px;
+    }
+
+/* ----------------------------------------
+forex-system
+---------------------------------------- */
+
+    .section-title {
+        font-size: 1.275rem;
+        max-width: 355px;
+        margin: 0 auto;
+    }
+
+    #forex-system {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .section-subtitle {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .our-products-menu p {
+        font-size: 1.385rem;
+        margin-bottom: 15px;
+        margin-left: 10px;
+    }
+
+    .our-products-flex {
+        flex-direction: column;
+    }
+
+    .menu-first {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .wrapper {
+        max-width: 355px;
+    }
+
+    .menu-second {
+        width: 100%;
+    }
+
+    .menu-second p {
+        font-size: 0.915rem;
+        margin-top: 20px;
+    }
+
+    .text-min {
+        font-size: 1.275rem!important;
+    }
+
+    .btn {
+        display: block;
+        padding: 10px 15px;
+        margin: 0 auto;
+        max-width: 142px;
+        text-align: center;
+    }
+
+    .section-half {
+        width: 100%;
+        margin: 10px;
+    }
+
+    .section-flex-first {
+        display: flex;
+        background-image: url(img/original3.png);
+        height: 290px;
+    }
+
+    .text-width {
+        max-width: 85%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .section-half-clearbox {
+        display: none;
+    }
+
+    .section-flex-first {
+        height: 243px;
+    }
+
+    .section-flex-second {
+        height: 406px;
+    }
+
+    .section-flex-third {
+        height: 278px;
+    }
+
+    .section-halftitle {
+        font-size: 1.375rem;
+    }
+
+    .section-halftitle br {
+        display: none;
+    }
+
+    .section-half-text br {
+        /* display: none; */
+    }
+
+    .br-none br {
+        display: none;
+    }
+
+    .br-none-1 br:nth-of-type(1) {
+        display: none;
+    } 
+
+    .our-products-menu p {
+        font-size: 1.485rem;
+        margin-left: 0px;
+    }
+
+    .about-us {
+        margin-bottom: 40px;
+    }
+
+    .contact-us {
+        margin-bottom: 210px;
+    }
+
+    .footer-nav {
+        display: none;
+    }
+
+    .footer-text {
+        line-height: 2;
+    }
+
+    .copyright {
+        margin-bottom: 80px;
+        margin-top: 80px;
+    }
+
+/* ----------------------------------------
+product
+---------------------------------------- */
+.product-wrapper {
+    max-width: 940px;
+    margin: 80px auto;
+}
+
+    .product-title h1 {
+        font-size: 1.285rem;
+        margin-bottom: 5px;
+        margin-top: 20px;
+    }
+
+    .product-title p {
+        font-size: 0.775rem;
+    }
+
+    .product-title br {
+        display: none;
+    }
+
+    .awesome-features {
+        margin-top: 50px;
+    }
+
+    .awesome-features h2 p {
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    .awesome-features h2 {
+        font-size: 1.285rem;
+        border-top: 2px solid #a08a1e;
+        border-bottom: 2px solid #a08a1e;
+        margin-bottom: 25px;
+    }
+
+    .feedback {
+        /* display: none; */
+    }
+
+    .feedback h3 {
+        font-size: 1.205rem;
+        margin-bottom: 40px;
+    }
+
+    .feedback-item {
+        background-color: #fff;
+        color: #000;
+        width: 48%;
+        display: block;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .point {
+        margin-bottom: 70px;
+        margin-top: 15px;
+    }
+
+    .accordion-title {
+        font-size: 1.175rem;
+        padding: 15px 0;
+        border-bottom: 2px solid #a08a1e;
+        padding-left: 15px;
+    }
+
+    .br-none-2 {
+        display: block;
+    }
+
+    .accordion-title::after {
+        content: "";
+        display: block;
+        position: absolute;
+        right: 6%;
+        top: 0;
+        bottom: 15%;
+        margin: auto;
+    }
+
+    .answer p {
+        padding: 20px;
+    }
+
+    .system h3 {
+        font-size: 1.275rem;    font-size: 1.275rem;
+        margin-bottom: 25px;
+        padding-left: 0px;
+    }
+
+    .system-flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .system-menu1 {
+        width: 100%;
+    }
+
+    .system-menu2 {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .system-menu2 p {
+        font-size: 0.875rem;
+        margin-top: 30px;
+    }
+
+    .br-tune-1 br:nth-of-type(2),
+    .br-tune-1 br:nth-of-type(4),
+    .br-tune-1 br:nth-of-type(7),
+    .br-tune-1 br:nth-of-type(10) {
+        display: none;
+    } 
+
+    .system {
+        margin-bottom: 40px;
+    }
+
+    .br-tune-2 br:nth-of-type(4) {
+        display: none;
+    }
+
+
+    .br-tune-3 br:nth-of-type(4) {
+        display: none;
+    }
+
+    .feedback h3::before {
+        content: "";
+        position: absolute;
+        bottom: 107px;
+        left: 2.8em;
+        width: 10px;
+        height: 10px;
+        background-color: #a08a1e;
+        transform: rotate(45deg);
+    }
+
+    .feedback h3::after {
+        content: "";
+        position: absolute;
+        bottom: 106px;
+        left: 14.9em;
+        width: 10px;
+        height: 10px;
+        background-color: #a08a1e;
+        transform: rotate(45deg);
+    }
+
+    .text-left {
+        text-align: left!important;
+    }
+
+    .feedback-flex {
+        flex-direction: column;
+    }
+
+    .feedback-item {
+        width: 100%;
+        display: block;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .feedback-item img {
+        height: 150px;
+        width: 150px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .img-center {
+    text-align: center;
+    }
+
+    .feedback-text {
+        width: 100%;
+    }
+
+    .feedback-subtext {
+        margin-top: 30px;
+        margin-bottom: 150px;
+    }
+
+/* ----------------------------------------
+ABOUT USページ
+---------------------------------------- */
+.top-visual {
+    height: 136px;
+    margin-top: 58px;
+}
+
+    .admirals {
+        margin-top: 20px;
+    }
+
+    .admirals h3 {
+        font-size: 1.275rem;
+        margin-bottom: 20px;
+    }
+
+    .admirals p {
+        margin-bottom: 40px;
+    }
+
+    .who-we-are h3 {
+        font-size: 1.275rem;
+        margin-bottom: 13px;
+    }
+
+    .border-bottom-h3 {
+        border-bottom: #a08a1e 2px solid;
+        display: block;
+        width: 15%;
+        margin: 0 auto 40px auto;
+    }
+
+    .about-wrapper {
+        max-width: 355px;
+        margin: 0 auto;
+    }
+
+    .br-none-about br {
+        display: none;
+    }
+
+    .who-we-are p {
+        margin-bottom: 30px;
+    }
+
+    .table {
+        margin-left: 0px;
+        margin-bottom: 400px;
+    }
+
+    .info dl {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info {
+        margin: 0 auto 200px auto;
+    }
+
+/* ----------------------------------------
+contact
+---------------------------------------- */
+.contact-top {
+    height: 76px;
+    margin-top: 58px;
+}
+
+    .contact-top h3 {
+        font-size: 1.275rem;
+        padding-top: 25px;
+    }
+
+    .contact-text {
+        margin-top: 60px;
+    }
+
+    .contact-wrapper {
+        max-width: 355px;
+        margin: 0 auto;
+    }
+
+    .item {
+        margin-bottom: 18px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .item textarea {
+        width: 334px;
+        height: 92px;
+    }
+
+    .item input {
+        width: 100%;
+        padding: 7px 7px 7px 9px;
+        border-radius: 3px;
+    }
+
+    .item label {
+        width: 100%;
+    }
+
+    .contact-form {
+        margin: 20px auto 150px auto;
+    }
+
+    .faq h3 {
+        font-size: 1.275rem;
+        margin: 0px auto 40px auto;
+    }
+
+    .accordion-title {
+        font-size: 1.075rem;
+        padding: 15px 0;
+        border-bottom: 2px solid #a08a1e;
+        padding-left: 10px;
+    }
+
+    .faq {
+        max-width: 940px;
+        margin: 0 auto 130px auto;
+    }
+
+    .contact-wrapper-2 {
+        padding: 10px;
+    }
+}
