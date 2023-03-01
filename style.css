@@ -75,7 +75,7 @@ main-visual
 
 .main-visual {
     position: relative;
-    background-image: url(img/original.jpeg);
+    background-image: url(https://yasu-works.github.io/test-up/original.jpeg);
     height: 500px;
     background-size: cover;
     background-position: center;
@@ -156,7 +156,7 @@ section
 ---------------------------------------- */
 .section-flex-first {
     display: flex;
-    background-image: url(img/original3.png);
+    background-image: url(https://yasu-works.github.io/test-up/original3.png);
     background-size: cover;
     background-position: center;
     height: 290px;
@@ -164,7 +164,7 @@ section
 
 .section-flex-second {
     display: flex;
-    background-image: url(img/original4.jpeg);
+    background-image: url(https://yasu-works.github.io/test-up/original4.jpeg);
     background-size: cover;
     background-position: center;
     height: 390px;
@@ -172,7 +172,7 @@ section
 
 .section-flex-third {
     display: flex;
-    background-image: url(img/original5.jpeg);
+    background-image: url(https://yasu-works.github.io/test-up/original5.jpeg);
     background-size: cover;
     background-position: center;
     height: 280px;
@@ -500,7 +500,7 @@ ABOUT USページ
 ---------------------------------------- */
 .top-visual {
     background-size: cover;
-    background-image: url(img/IMG_7675.jpeg);
+    background-image: url(https://yasu-works.github.io/test-up/IMG_7675.jpeg);
     height: 230px;
     background-position: center;
     margin-top: 75px;
@@ -583,7 +583,7 @@ ABOUT USページ
 contact usページ
 ---------------------------------------- */
 .contact-top {
-    background-image: url(img/original4.jpeg);
+    background-image: url(https://yasu-works.github.io/test-up/original4.jpeg);
     height: 176px;
     background-position: center;
     background-size: cover;
@@ -865,7 +865,7 @@ forex-system
 
     .section-flex-first {
         display: flex;
-        background-image: url(img/original3.png);
+        background-image: url(https://yasu-works.github.io/test-up/original3.png);
         height: 290px;
     }
 
